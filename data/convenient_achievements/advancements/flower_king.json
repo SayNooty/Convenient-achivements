@@ -1,0 +1,266 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poppy"
+    },
+    "title": "Flower king",
+    "description": "Collect all kinds of flowers in 64 pieces.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:eggonaier",
+  "criteria": {
+    "Мак": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:poppy"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dandelion"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_orchid"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:allium"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "azure_bluet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "red tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_tulip"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_tulip"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_tulip"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxeye_daisy"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cornflower"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "sunflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sunflower"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "lilac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lilac"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "rose_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rose_bush"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "peony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:peony"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "pitcher_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pitcher_plant"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
