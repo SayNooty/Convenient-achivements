@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": "Jump-skok",
+    "description": "Combine 9 clumps of mucus to get a full-fledged block of mucus",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jumpskip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 65
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "convenient_achievements:convenientachievements"
+}

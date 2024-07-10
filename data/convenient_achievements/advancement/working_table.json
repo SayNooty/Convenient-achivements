@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": "Working Table",
+    "description": "Create a working table without a working table",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "working_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ],
+            "count": {
+              "min": 1,
+              "max": 65
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "convenient_achievements:convenientachievements"
+}
