@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allay_spawn_egg"
+    },
+    "title": "Allay 2021",
+    "description": "Give Allay a disc: Lena Rein - otherside. The winner of the vote!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:mob_vote_2020",
+  "criteria": {
+    "Multiply allay": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:music_disc_otherside"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": "Armadillo 2023",
+    "description": "Craft wolf armor. Get an Armadillo scute. Use a brush on the Armadillo. Bring two armadillos together. The winner of the vote!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:mob_vote_2022",
+  "criteria": {
+    "Craft wolf armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wolf_armor"
+      }
+    },
+    "Armadillo scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:armadillo_scute"
+          }
+        ]
+      }
+    },
+    "Use brush the Armadillo": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:brush"
+        },
+        "entity": {
+          "type": "minecraft:armadillo",
+          "slots": {}
+        }
+      }
+    },
+    "Bring two armadillos together": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:armadillo"
+        },
+        "partner": {
+          "type": "minecraft:armadillo"
+        },
+        "child": {
+          "type": "minecraft:armadillo"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

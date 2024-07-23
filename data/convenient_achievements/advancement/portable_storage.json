@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": "Portable storage",
+    "description": "Craft a Shulker box",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:secret_storage",
+  "criteria": {
+    "portable_storage": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shulker_box"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "sends_telemetry_event": true
+}
