@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Lord peaks"
+    },
+    "description": {
+      "translate": "Visit the biome of the snowy hills to find a goat and knock out a goat horn. Also take away the loose snow. The winner of the vote 2019!",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:votes/lamp_evening_2018",
+  "criteria": {
+    "Get goat horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:goat_horn"
+          }
+        ]
+      }
+    },
+    "Full bucket powder snow": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": "minecraft:powder_snow_bucket"
+        }
+      }
+    },
+    "Find snowy slopes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:snowy_slopes"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "Music of fear"
+    },
+    "description": {
+      "translate": "Connect the fragments of plate 5 and get a full plate",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:remote_signal",
+  "criteria": {
+    "craft samuel aberg 5": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:music_disc_5"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

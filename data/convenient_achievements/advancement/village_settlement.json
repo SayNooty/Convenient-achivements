@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "Village settlement"
+    },
+    "description": {
+      "translate": "Visit all kinds of villages"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:convenient_achievements",
+  "criteria": {
+    "village plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_plains"
+          }
+        }
+      }
+    },
+    "village desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_desert"
+          }
+        }
+      }
+    },
+    "village savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_savanna"
+          }
+        }
+      }
+    },
+    "village taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_taiga"
+          }
+        }
+      }
+    },
+    "village snowy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_snowy"
+          }
+        }
+      }
+    }
+  }
+}

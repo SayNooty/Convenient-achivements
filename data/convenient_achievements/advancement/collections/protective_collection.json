@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_horse_armor"
+    },
+    "title": {
+      "translate": "Protective collection"
+    },
+    "description": {
+      "translate": "Collect the entire collection of armor for your pets (Horse armor and Wolf armor)"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:collections/eggonaier",
+  "criteria": {
+    "leather horse armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_horse_armor"
+          }
+        ]
+      }
+    },
+    "iron horse armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_horse_armor"
+          }
+        ]
+      }
+    },
+    "golden horse armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_horse_armor"
+          }
+        ]
+      }
+    },
+    "diamond horse armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_horse_armor"
+          }
+        ]
+      }
+    },
+    "wolf armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wolf_armor"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

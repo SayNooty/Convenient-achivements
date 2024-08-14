@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.end.elytra.title"
+    },
+    "description": {
+      "translate": "advancements.end.elytra.description",
+      "color": "yellow"
+    },
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "elytra"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

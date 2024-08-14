@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Triple bottom"
+    },
+    "description": {
+      "translate": "Get to the lowest altitude in each world"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:core_earth",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "position": {
+              "y": -63
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "the_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "position": {
+              "y": 1
+            },
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "position": {
+              "y": 1
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}
