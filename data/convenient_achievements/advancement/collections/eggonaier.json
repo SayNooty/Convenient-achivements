@@ -4,10 +4,12 @@
       "id": "minecraft:turtle_egg"
     },
     "title": {
-      "translate": "Eggonaier"
+      "translate": "ca.eggonaier",
+	  "fallback": "Eggonaier"
     },
     "description": {
-      "translate": "Collect all possible types of eggs"
+      "translate": "ca.lore.eggonaier",
+	  "fallback": "Collect all possible types of eggs"
     },
     "show_toast": true,
     "announce_to_chat": true,

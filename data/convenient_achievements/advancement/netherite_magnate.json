@@ -4,10 +4,12 @@
       "id": "minecraft:netherite_block"
     },
     "title": {
-      "translate": "Netherite magnate"
+      "translate": "ca.netherite_magnate",
+	  "fallback": "Netherite magnate"
     },
     "description": {
-      "translate": "Get netherite block"
+      "translate": "ca.lore.netherite_magnate",
+	  "fallback": "Get netherite block"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -16,7 +18,7 @@
   },
   "parent": "convenient_achievements:chermen",
   "criteria": {
-    "netheritemagnate": {
+    "Get netherite block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -4,10 +4,12 @@
       "id": "minecraft:poppy"
     },
     "title": {
-      "translate": "Flower king"
+      "translate": "ca.flower_king",
+	  "fallback": "Flower king"
     },
     "description": {
-      "translate": "Collect all kinds of flowers in 64 pieces"
+      "translate": "ca.lore.flower_king",
+	  "fallback": "Collect all kinds of flowers in 64 pieces"
     },
     "frame": "challenge",
     "show_toast": true,

@@ -4,10 +4,12 @@
       "id": "minecraft:shulker_box"
     },
     "title": {
-      "translate": "Portable storage"
+      "translate": "ca.portable_storage",
+	  "fallback": "Portable storage"
     },
     "description": {
-      "translate": "Crafted shulker box"
+      "translate": "ca.lore.portable_storage",
+	  "fallback": "Crafted shulker box"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,15 +18,11 @@
   },
   "parent": "convenient_achievements:secret_storage",
   "criteria": {
-    "portable_storage": {
+    "Get shulker box": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:shulker_box"
       }
     }
-  },
-  "rewards": {
-    "experience": 1
-  },
-  "sends_telemetry_event": true
+  }
 }

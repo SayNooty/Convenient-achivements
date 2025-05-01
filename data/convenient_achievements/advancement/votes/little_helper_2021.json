@@ -4,10 +4,12 @@
       "id": "minecraft:allay_spawn_egg"
     },
     "title": {
-      "translate": "Little helper"
+      "translate": "ca.little_helper",
+	  "fallback": "Little helper"
     },
     "description": {
-      "translate": "Give Allay a disc: Lena Rein - otherside. The winner of the vote 2021!",
+      "translate": "ca.lore.little_helper",
+	  "fallback": "Give Allay disc: Lena Rein - otherside. Winner of the vote 2021!",
       "color": "yellow"
     },
     "frame": "goal",

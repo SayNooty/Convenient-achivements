@@ -4,10 +4,12 @@
       "id": "minecraft:sniffer_egg"
     },
     "title": {
-      "translate": "Chuika here!"
+      "translate": "ca.chuika_here",
+	  "fallback": "Chuika here!"
     },
     "description": {
-      "translate": "Get a Sniffer egg. Feed the Sniffer with torchflower seeds. Get a torchwlower and a pitcher plant. The winner of the vote 2022!",
+      "translate": "ca.lore.chuika_here",
+	  "fallback": "Get Sniffer egg. Feed the Sniffer with torchflower seeds. Get torchwlower and pitcher plant. Winner of the vote 2022!",
       "color": "yellow"
     },
     "frame": "goal",

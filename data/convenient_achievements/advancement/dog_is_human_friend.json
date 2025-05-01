@@ -4,10 +4,12 @@
       "id": "minecraft:bone"
     },
     "title": {
-      "translate": "Dog is human friend"
+      "translate": "ca.dog_is_human_friend",
+	  "fallback": "Dog is human friend"
     },
     "description": {
-      "translate": "Tame wolf"
+      "translate": "ca.lore.dog_is_human_friend",
+	  "fallback": "Tame wolf"
     },
     "frame": "task",
     "show_toast": true,

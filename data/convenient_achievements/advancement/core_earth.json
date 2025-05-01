@@ -4,10 +4,12 @@
       "id": "minecraft:grass_block"
     },
     "title": {
-      "translate": "Core earth"
+      "translate": "ca.core_earth",
+	  "fallback": "Core earth"
     },
     "description": {
-      "translate": "Get to the lowest layer of the earth"
+      "translate": "ca.lore.core_earth",
+	  "fallback": "Get to the lowest layer of the earth"
     },
     "frame": "task",
     "show_toast": true,

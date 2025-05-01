@@ -11,10 +11,12 @@
       }
     },
     "title": {
-      "translate": "Enemy of my enemy is my friend"
+      "translate": "ca.enemy_of_my_enemy_is_my_friend",
+	  "fallback": "Enemy of my enemy is my friend"
     },
     "description": {
-      "translate": "Equip a zombie villager with any element of armor",
+      "translate": "ca.lore.enemy_of_my_enemy_is_my_friend",
+	  "fallback": "Equip zombie villager with any element of armor",
       "color": "yellow"
     },
     "frame": "goal",

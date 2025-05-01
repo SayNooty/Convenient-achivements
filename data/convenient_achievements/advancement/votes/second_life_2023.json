@@ -4,10 +4,12 @@
       "id": "minecraft:wolf_armor"
     },
     "title": {
-      "translate": "Second life"
+      "translate": "ca.second_life",
+	  "fallback": "Second life"
     },
     "description": {
-      "translate": "Craft wolf armor. Get an Armadillo scute. Use a brush on the Armadillo. Bring two armadillos together. The winner of the vote 2023!",
+      "translate": "ca.lore.second_life",
+	  "fallback": "Crafted wolf armor. Get an Armadillo scute. Use brush on the Armadillo. Bring two armadillos together. Winner of the vote 2023!",
       "color": "yellow"
     },
     "frame": "goal",

@@ -4,10 +4,12 @@
       "id": "minecraft:phantom_membrane"
     },
     "title": {
-      "translate": "Night bird"
+      "translate": "ca.night_bird",
+	  "fallback": "Night bird"
     },
     "description": {
-      "translate": "Kill and get the phantom membrane. The winning mob in the voting 2017!",
+      "translate": "ca.lore.night_bird",
+	  "fallback": "Kill and get the phantom membrane. Winning mob in the voting 2017!",
       "color": "yellow"
     },
     "frame": "goal",

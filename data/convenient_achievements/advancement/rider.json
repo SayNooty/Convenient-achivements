@@ -4,10 +4,12 @@
       "id": "minecraft:saddle"
     },
     "title": {
-      "translate": "Rider"
+      "translate": "ca.rider",
+	  "fallback": "Rider"
     },
     "description": {
-      "translate": "Get saddle"
+      "translate": "ca.lore.rider",
+	  "fallback": "Get saddle"
     },
     "frame": "task",
     "show_toast": true,

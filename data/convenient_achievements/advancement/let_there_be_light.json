@@ -4,10 +4,12 @@
       "id": "minecraft:light"
     },
     "title": {
-      "translate": "Let there be light!"
+      "translate": "ca.let_there_be_light",
+	  "fallback": "Let there be light!"
     },
     "description": {
-      "translate": "Get this block of light by crafting"
+      "translate": "ca.lore.let_there_be_light",
+	  "fallback": "Get this block of light by crafting"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,7 +18,7 @@
   },
   "parent": "convenient_achievements:convenient_achievements",
   "criteria": {
-    "lettherebelight": {
+    "Get light": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

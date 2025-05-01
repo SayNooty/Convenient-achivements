@@ -4,20 +4,22 @@
       "id": "minecraft:gold_ingot"
     },
     "title": {
-      "translate": "Convenient achievements"
+      "translate": "ca.convenient_achievements",
+	  "fallback": "Convenient achievements"
     },
     "description": {
-      "translate": "Unlock a new achievement tab with a gold ingot",
+      "translate": "ca.lore.convenient_achievements",
+	  "fallback": "Unlock new achievement tab with gold ingot",
       "color": "gray"
     },
-    "background": "minecraft:textures/block/oxidized_cut_copper.png",
+    "background": "minecraft:block/horn_coral_block",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "convenientachievements": {
+    "convenient_achievements": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -4,10 +4,12 @@
       "id": "minecraft:oak_log"
     },
     "title": {
-      "translate": "Village settlement"
+      "translate": "ca.village_settlement",
+	  "fallback": "Village settlement"
     },
     "description": {
-      "translate": "Visit all kinds of villages"
+      "translate": "ca.lore.village_settlement",
+	  "fallback": "Visit all kinds of villages"
     },
     "frame": "task",
     "show_toast": true,

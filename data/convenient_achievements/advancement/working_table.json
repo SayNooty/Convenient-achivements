@@ -4,10 +4,12 @@
       "id": "minecraft:crafting_table"
     },
     "title": {
-      "translate": "Working table"
+      "translate": "ca.working_table",
+	  "fallback": "Working table"
     },
     "description": {
-      "translate": "Crafted a working table without a working table"
+      "translate": "ca.lore.working_table",
+	  "fallback": "Crafted working table without working table"
     },
     "frame": "task",
     "show_toast": true,

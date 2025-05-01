@@ -4,10 +4,12 @@
       "id": "minecraft:mace"
     },
     "title": {
-      "translate": "Heavy weapons"
+      "translate": "ca.heavy_weapons",
+	  "fallback": "Heavy weapons"
     },
     "description": {
-      "translate": "Crafted mace",
+      "translate": "ca.lore.heavy_weapons",
+	  "fallback": "Crafted mace",
       "color": "yellow"
     },
     "frame": "goal",

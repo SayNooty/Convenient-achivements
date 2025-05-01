@@ -4,10 +4,12 @@
       "id": "minecraft:glow_ink_sac"
     },
     "title": {
-      "translate": "Where it dark, there is light"
+      "translate": "ca.where_it_dark_there_is_light",
+	  "fallback": "Where it dark, there is light"
     },
     "description": {
-      "translate": "Kill the glow squid and get a glowing ink bag to create a glowing frame. The winner of the vote 2020!",
+      "translate": "ca.lore.where_it_dark_there_is_light",
+	  "fallback": "Kill the glow squid and get glowing ink bag to create glowing frame. Winner of the vote 2020!",
       "color": "yellow"
     },
     "frame": "goal",

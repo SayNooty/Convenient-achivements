@@ -4,10 +4,12 @@
       "id": "minecraft:milk_bucket"
     },
     "title": {
-      "translate": "Brisk milk"
+      "translate": "ca.brisk_milk",
+      "fallback": "Brisk milk"
     },
     "description": {
-      "translate": "In the morning, you need to drink milk from the morning"
+      "translate": "ca.lore.brisk_milk",
+      "fallback": "In the morning, you need to drink milk from the morning"
     },
     "show_toast": true,
     "announce_to_chat": true,

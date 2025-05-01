@@ -4,10 +4,12 @@
       "id": "minecraft:snow_block"
     },
     "title": {
-      "translate": "Lord peaks"
+      "translate": "ca.lord_peaks",
+	  "fallback": "Lord peaks"
     },
     "description": {
-      "translate": "Visit the biome of the snowy hills to find a goat and knock out a goat horn. Also take away the loose snow. The winner of the vote 2019!",
+      "translate": "ca.lord_peaks",
+	  "fallback": "Visit the biome of the snowy hills to find goat and knock out goat horn. Also take away the loose snow. Winner of the vote 2019!",
       "color": "yellow"
     },
     "frame": "goal",

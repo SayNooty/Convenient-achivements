@@ -4,10 +4,12 @@
       "id": "minecraft:diamond_ore"
     },
     "title": {
-      "translate": "Miner"
+      "translate": "ca.miner",
+	  "fallback": "Miner"
     },
     "description": {
-      "translate": "Collect all kinds of stone, deepslate and netherrack ores"
+      "translate": "ca.lore.miner",
+	  "fallback": "Collect all kinds of stone, deepslate and netherrack ores"
     },
     "frame": "task",
     "show_toast": true,

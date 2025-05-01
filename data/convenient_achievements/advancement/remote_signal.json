@@ -4,10 +4,12 @@
       "id": "minecraft:sculk_sensor"
     },
     "title": {
-      "translate": "Remote signal"
+      "translate": "ca.remote_signal",
+	  "fallback": "Remote signal"
     },
     "description": {
-      "translate": "Place sculk sensor"
+      "translate": "ca.lore.remote_signal",
+	  "fallback": "Place sculk sensor"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,7 +18,7 @@
   },
   "parent": "convenient_achievements:convenient_achievements",
   "criteria": {
-    "remote_signal": {
+    "Place sculk sensor": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

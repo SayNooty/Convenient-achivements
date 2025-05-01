@@ -4,10 +4,12 @@
       "id": "minecraft:heart_of_the_sea"
     },
     "title": {
-      "translate": "Marine artifact"
+      "translate": "ca.marine_artifact",
+	  "fallback": "Marine artifact"
     },
     "description": {
-      "translate": "Get the heart of the sea"
+      "translate": "ca.lore.marine_artifact",
+	  "fallback": "Get the heart of the sea"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,7 +18,7 @@
   },
   "parent": "convenient_achievements:thirst",
   "criteria": {
-    "marine_artifact": {
+    "Get heart of the sea": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

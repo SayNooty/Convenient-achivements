@@ -9,10 +9,12 @@
       }
     },
     "title": {
-      "translate": "Extermination"
+      "translate": "ca.extermination",
+	  "fallback": "Extermination"
     },
     "description": {
-      "translate": "Kill all possible mobs in survival!"
+      "translate": "ca.lore.extermination",
+	  "fallback": "Kill all possible mobs in survival!"
     },
     "frame": "challenge",
     "show_toast": true,

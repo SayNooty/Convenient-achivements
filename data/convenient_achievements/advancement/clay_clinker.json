@@ -4,10 +4,12 @@
       "id": "minecraft:brick"
     },
     "title": {
-      "translate": "Clay clinker"
+      "translate": "ca.clay_clinker",
+	  "fallback": "Clay clinker"
     },
     "description": {
-      "translate": "Get brick by melting clay"
+      "translate": "ca.lore.clay_clinker",
+	  "fallback": "Get brick by melting clay"
     },
     "frame": "task",
     "show_toast": true,

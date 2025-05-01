@@ -4,10 +4,12 @@
       "id": "minecraft:cake"
     },
     "title": {
-      "translate": "Cake factory"
+      "translate": "ca.cake_factory",
+	  "fallback": "Cake factory"
     },
     "description": {
-      "translate": "Crafted cake in crafter"
+      "translate": "ca.lore.cake_factory",
+	  "fallback": "Crafted cake in crafter"
     },
     "frame": "task",
     "show_toast": true,

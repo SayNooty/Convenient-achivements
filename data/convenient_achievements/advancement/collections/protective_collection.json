@@ -4,10 +4,12 @@
       "id": "minecraft:golden_horse_armor"
     },
     "title": {
-      "translate": "Protective collection"
+      "translate": "ca.protective_collection",
+	  "fallback": "Protective collection"
     },
     "description": {
-      "translate": "Collect the entire collection of armor for your pets (Horse armor and Wolf armor)"
+      "translate": "ca.lore.protective_collection",
+	  "fallback": "Collect the entire collection of armor for your pets (Horse armor and Wolf armor)"
     },
     "show_toast": true,
     "announce_to_chat": true,

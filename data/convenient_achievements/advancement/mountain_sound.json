@@ -4,10 +4,12 @@
       "id": "minecraft:goat_horn"
     },
     "title": {
-      "translate": "Mountain sound"
+      "translate": "ca.mountain_sound",
+	  "fallback": "Mountain sound"
     },
     "description": {
-      "translate": "Blow the goat horn"
+      "translate": "ca.lore.mountain_sound",
+	  "fallback": "Blow the goat horn"
     },
     "show_toast": true,
     "announce_to_chat": true,

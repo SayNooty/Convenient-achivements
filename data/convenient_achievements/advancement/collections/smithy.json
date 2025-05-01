@@ -4,10 +4,12 @@
       "id": "minecraft:sentry_armor_trim_smithing_template"
     },
     "title": {
-      "translate": "Smithy"
+      "translate": "ca.smithy",
+	  "fallback": "Smithy"
     },
     "description": {
-      "translate": "Collect all kinds of smithing template"
+      "translate": "ca.lore.smithy",
+	  "fallback": "Collect all kinds of smithing template"
     },
     "frame": "challenge",
     "show_toast": true,

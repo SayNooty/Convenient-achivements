@@ -4,10 +4,12 @@
       "id": "minecraft:player_head"
     },
     "title": {
-      "translate": "Remains execution"
+      "translate": "ca.remains_execution",
+	  "fallback": "Remains execution"
     },
     "description": {
-      "translate": "Get the player's head"
+      "translate": "ca.lore.remains_execution",
+	  "fallback": "Get the player's head"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,7 +18,7 @@
   },
   "parent": "convenient_achievements:extermination",
   "criteria": {
-    "remainsexecution": {
+    "Get player head": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

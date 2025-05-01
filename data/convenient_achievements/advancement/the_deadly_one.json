@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "ca.the_deadly_one",
+      "fallback": "The deadly one"
+    },
+    "description": {
+      "translate": "ca.lore.the_deadly_one",
+      "fallback": "Use the totem of immortality in a burning state and falling from a height"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burned_down": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {},
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    },
+    "": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {}
+    },
+    "fell": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "flags": {
+            "is_flying": true
+          }
+        }
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "experience": 5
+  }
+}

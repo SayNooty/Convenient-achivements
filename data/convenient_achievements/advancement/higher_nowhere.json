@@ -4,10 +4,12 @@
       "id": "minecraft:wind_charge"
     },
     "title": {
-      "translate": "Higher nowhere"
+      "translate": "ca.higher_nowhere",
+	  "fallback": "Higher nowhere"
     },
     "description": {
-      "translate": "Get to the height limit of the overworld"
+      "translate": "ca.lore.higher_nowhere",
+	  "fallback": "Get to the height limit of the overworld"
     },
     "frame": "task",
     "show_toast": true,

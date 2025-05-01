@@ -4,10 +4,12 @@
       "id": "minecraft:potion"
     },
     "title": {
-      "translate": "Thirst"
+      "translate": "ca.thirst",
+	  "fallback": "Thirst"
     },
     "description": {
-      "translate": "Drink a bottle of water"
+      "translate": "ca.lore.thirst",
+	  "fallback": "Drink bottle of water"
     },
     "frame": "task",
     "show_toast": true,

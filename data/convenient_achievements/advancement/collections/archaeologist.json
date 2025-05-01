@@ -4,10 +4,12 @@
       "id": "minecraft:danger_pottery_sherd"
     },
     "title": {
-      "translate": "Archaeologist"
+      "translate": "ca.archaeologist",
+	  "fallback": "Archaeologist"
     },
     "description": {
-      "translate": "Collect all kinds of pottery sherds"
+      "translate": "ca.lore.archaeologist",
+	  "fallback": "Collect all kinds of pottery sherds"
     },
     "frame": "challenge",
     "show_toast": true,

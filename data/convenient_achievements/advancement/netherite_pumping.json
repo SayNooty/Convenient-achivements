@@ -4,10 +4,12 @@
       "id": "minecraft:netherite_upgrade_smithing_template"
     },
     "title": {
-      "translate": "Netherite pumping"
+      "translate": "ca.netherite_pumping",
+	  "fallback": "Netherite pumping"
     },
     "description": {
-      "translate": "Find a template for pumping diamond armor into netherite"
+      "translate": "ca.lore.netherite_pumping",
+	  "fallback": "Find template for pumping diamond armor into netherite"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,12 +18,14 @@
   },
   "parent": "convenient_achievements:netherite_magnate",
   "criteria": {
-    "upgrade armor": {
-      "trigger": "minecraft:using_item",
+    "Upgrade diamond armor": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "items": "minecraft:netherite_upgrade_smithing_template"
-        }
+        "items": [
+          {
+            "items": "minecraft:netherite_upgrade_smithing_template"
+          }
+        ]
       }
     }
   },

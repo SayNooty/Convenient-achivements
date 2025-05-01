@@ -4,10 +4,12 @@
       "id": "minecraft:chorus_fruit"
     },
     "title": {
-      "translate": "Food teleporter"
+      "translate": "ca.food_teleporter",
+	  "fallback": "Food teleporter"
     },
     "description": {
-      "translate": "Eat the fruit of horus"
+      "translate": "ca.lore.food_teleporter",
+	  "fallback": "Eat the fruit of horus"
     },
     "frame": "task",
     "show_toast": true,

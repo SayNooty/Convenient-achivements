@@ -4,10 +4,12 @@
       "id": "minecraft:blackstone"
     },
     "title": {
-      "translate": "Chermen"
+      "translate": "ca.chermen",
+	  "fallback": "Chermen"
     },
     "description": {
-      "translate": "Get a stone of only black color"
+      "translate": "ca.lore.chermen",
+	  "fallback": "Get stone of only black color"
     },
     "frame": "task",
     "show_toast": true,

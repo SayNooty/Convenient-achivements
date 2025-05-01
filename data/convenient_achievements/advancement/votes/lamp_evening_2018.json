@@ -4,10 +4,12 @@
       "id": "minecraft:spruce_sapling"
     },
     "title": {
-      "translate": "Lamp evening"
+      "translate": "ca.lamp_evening",
+	  "fallback": "Lamp evening"
     },
     "description": {
-      "translate": "Find the taiga biome. Get a campfire. Feed the fox. Get sweet berries. The winner is in the voting 2018!",
+      "translate": "ca.lore.lamp_evening",
+	  "fallback": "Find the taiga biome. Get campfire. Feed the fox. Get sweet berries. Winner is in the voting 2018!",
       "color": "yellow"
     },
     "frame": "goal",
@@ -43,7 +45,7 @@
         ]
       }
     },
-    "Feed the Fox": {
+    "Feed Fox": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
