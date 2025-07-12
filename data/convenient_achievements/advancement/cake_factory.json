@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "ca.cake_factory",
+	  "fallback": "Cake factory"
+    },
+    "description": {
+      "translate": "ca.lore.cake_factory",
+	  "fallback": "Crafted cake in crafter"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:working_table",
+  "criteria": {
+    "cake crafted crafter": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  }
+}

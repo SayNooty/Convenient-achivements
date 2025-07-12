@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "ca.convenient_achievements",
+	  "fallback": "Convenient achievements"
+    },
+    "description": {
+      "translate": "ca.lore.convenient_achievements",
+	  "fallback": "Unlock new achievement tab with gold ingot",
+      "color": "gray"
+    },
+    "background": "minecraft:block/horn_coral_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "convenient_achievements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

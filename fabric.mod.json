@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "convenient-achievements",
+	"version": "1.10.1",
+	"name": "Convenient Achievements",
+	"description": "Convenient Achievements - adds more than thirty achievements to Minecraft that you have to complete!",
+	"authors": [
+		"SayNooty"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "pack.png",
+	"environment": "*",
+	"entrypoints": {},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "ca.radiant_light",
+      "fallback": "Radiant light"
+    },
+    "description": {
+      "translate": "ca.lore.radiant_light",
+      "fallback": "Build a beacon in all dimensions"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:convenient_achievements",
+  "criteria": {
+    "owerworld beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "level": {
+          "min": 1,
+          "max": 4
+        }
+      }
+    },
+    "the nether beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "level": {
+          "min": 1,
+          "max": 4
+        }
+      }
+    },
+    "the end beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "level": {
+          "min": 1,
+          "max": 4
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

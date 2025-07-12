@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "ca.core_earth",
+	  "fallback": "Core earth"
+    },
+    "description": {
+      "translate": "ca.lore.core_earth",
+	  "fallback": "Get to the lowest layer of the earth"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "convenient_achievements:convenient_achievements",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "position": {
+              "y": -63
+            }
+          }
+        }
+      }
+    }
+  }
+}
